@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online News Portal - News and Advertisements</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header {
+background-color: #333;
+color: white;
+padding: 10px;
+text-align: center;
+}
+header a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+
+33
+
+main {
+display: flex;
+padding: 20px;
+}
+.news-section {
+flex: 2;
+padding: 10px;
+background-color: rgb(165, 164, 168);
+margin-right: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+}
+.news-article {
+border-bottom: 1px solid #ccc;
+padding-bottom: 20px;
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.news-article h3 {
+margin: 10px 0 0;
+}
+.news-article p {
+margin: 10px 0;
+}
+.news-article img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+.ads-section {
+flex: 1;
+padding: 10px;
+background-color:orange;
+}
+.ad {
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+
+34
+
+margin-bottom: 10px;
+}
+.ad img {
+max-width: 100%;
+height: auto;
+}
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+footer a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Logo">
+<h1>Online News Portal</h1>
+<nav>
+<a href="main.html">Home</a>
+</nav>
+</header>
+<main>
+<div class="news-section">
+<h2>Politics News</h2>
+<div class="news-article">
+<h3>Rahul Gandhi struck a deal to give Muslims...</h3>
+<img src="news1.jpeg" >
+<p>Rahul Gandhi struck a deal in Wayanad to give Muslims...':
+
+PM Modi on appeasement politics..<a href="#">Read more</a></p>
+
+<p> 2 days ago </p>
+</div>
+<div class="news-article">
+<h3>PM Modi's 10 blistering attacks...</h3>
+<img src="news2.jpeg" >
+
+35
+
+<p>In Gujarat, PM Modi's 10 blistering attacks on 'shahi
+parivar' Congress, 'shehzada' Rahul Gandhi ...<a href="#">Read more</a></p>
+
+<p> 2 days ago </p>
+</div>
+</div>
+<div class="ads-section">
+<h2>Advertisements</h2>
+<div class="ad">
+<h3>Lakmē Lumi Cream 30g</h3>
+<img src="ad_image1.jpeg" alt="Advertisement 1">
+<p>This cream lets you get that perfect look of makeup with
+
+the benefits of skincare for any occasion.</p>
+
+<p> 2 days ago </p>
+</div>
+<div class="ad">
+<h3>Red Bull Energy Drink, 250 ML Can, Mixed Fruit</h3>
+<img src="ad_image2.jpeg" alt="Advertisement 2">
+<p>Red Bull Energy Drink is a functional beverage especially
+
+developed for increased performance..</p>
+<p> 1 day ago </p>
+</div>
+</div>
+</main>
+<footer>
+<p><strong>Categories:</strong> <a href="sports.html">Sports</a> | <a
+href="business.html">Business</a> | <a href="politics.html">Politics</a> | <a
+href="entertainment.html">Entertainment</a></p>
+</footer>
+</body>
+</html>
